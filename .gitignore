@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local databases / logs
+*.log
+*.sqlite
+*.db
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local model artifacts (store large models elsewhere or use Git LFS)
+models/
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# Local datasets / exports
+data/raw/
+*.csv
+*.xlsx
+
+# Power BI temporary/backup files
+~$*

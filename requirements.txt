@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+xgboost
+tensorflow
+joblib
+matplotlib
+seaborn
+psycopg2-binary
+fastapi
+uvicorn
+python-dotenv
